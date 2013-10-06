@@ -13,10 +13,26 @@ body {
 header img {
 	float: left;
 }
-
+header h1 {
+	color: #800000;
+}
 /* the styles for the section */
 section {
 	clear: left;
 }
 
+section h1 {
+	color: #800000;
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
 /* the styles for the footer */
+
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+
+footer p {
+	padding: 1em 0;
+	text-align: center;
+}
